@@ -5,10 +5,47 @@ body {
     background-color: #D8D8D8;
 }
 
+/* HERO */
+.HeroSection {
+    height: 80vh;
+    width: 100vw;
+    padding-top: 50px;
+    
+    padding-bottom: 50px;
+}
+
+#HeadlineHero {
+    z-index: 1;
+    position: relative;
+}
+
+.profileImage {
+    filter: grayscale(100%);
+    width: 450px;
+    height: auto;
+}
+
+/* TOP NAV */
+
+#topNavBar {
+    color:#001648;
+    border-bottom: 3px solid #001648;
+}
+
 .navbar-brand {
     color: #001648;
-
 }
+
+.nav-item, .a, .ul, .li, .active, .default {
+    color: #001648 !important;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.navbar-toggler {
+    background-color: #001648;
+}
+
+/* TYPOGRAPHY */
 
 h1 {
     color: #001648;
