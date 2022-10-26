@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;500&display=swap');
+
+body {
+    z-index: 0;
+    background-color: #D8D8D8;
+}
+
+.navbar-brand {
+    color: #001648;
+
+}
+
+h1 {
+    color: #001648;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+h2 {
+    color: #00E2C7;
+    font-family: 'Source Code Pro', monospace;
+
+}
