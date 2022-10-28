@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;500&display=swap');
 
 body {
-    z-index: 0;
     background-color: #D8D8D8;
 }
-
 /* HERO */
+
 .HeroSection {
-    width: 100%;
+    width: 100vw;
     max-width: 1280px;
     margin: 100px auto;
     display: flex;
@@ -16,7 +15,7 @@ body {
 }
 
 .copyHero {
-    width: 50%;
+    width: 50vw;
     min-height: 400px;
     display: flex;
     align-items: center;
@@ -27,7 +26,7 @@ body {
     margin-left: 150px;
 }
 .imageProfile{
-    width: 50%;
+    width: 50vw;
     height: 350px;
     margin-left: -100px;
     z-index: 0;
@@ -43,16 +42,16 @@ body {
 @media only screen and (max-width: 768px) {
     .HeroSection {
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     margin-top: 20px;
     }
     .copyHero {
-    width: 100%;
+    width: 100vw;
     min-height: 300px;
     margin: 10px 0px 0px 10px;
     }
     .imageProfile {
-    width: 100%;
+    width: 100vw;
     min-height: 400px;
     margin: 30px;
     }
@@ -90,4 +89,32 @@ h2 {
     color: #00E2C7;
     font-family: 'Source Code Pro', monospace;
 
+}
+
+/* TOOLBOX SECTION */
+
+.toolBoxSection {
+    background-color: #001648;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#copyToolbox, p {
+    color: #00E2C7;
+    display: block;
+    padding-top: 100px;   
+    text-align: center;
+}
+
+.toolBoxLogos {
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
