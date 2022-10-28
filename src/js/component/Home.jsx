@@ -3,6 +3,7 @@ import { Navbar } from "./Navbar.js";
 import { HeroSection } from "./HeroSection.js";
 import { Footer } from "./Footer.js";
 
+
 export function Home() {
   return (
     <div className="container">

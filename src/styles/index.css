@@ -7,22 +7,55 @@ body {
 
 /* HERO */
 .HeroSection {
-    height: 80vh;
-    width: 100vw;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.HeadlineHero {
-    z-index: 2;
-    position: absolute;
-    max-width: 40vw;
+.copyHero {
+    width: 50%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    margin-left: 150px;
+}
+.imageProfile{
+    width: 50%;
+    height: 350px;
+    margin-left: -100px;
+    z-index: 0;
 }
 
-.profileImage {
+#profileImage {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
     filter: grayscale(100%);
-    width: 450px;
-    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .HeroSection {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    }
+    .copyHero {
+    width: 100%;
+    min-height: 300px;
+    margin: 10px 0px 0px 10px;
+    }
+    .imageProfile {
+    width: 100%;
+    min-height: 400px;
+    margin: 30px;
+    }
 }
 
 /* TOP NAV */
