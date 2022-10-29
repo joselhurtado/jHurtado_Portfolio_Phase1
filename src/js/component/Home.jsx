@@ -7,12 +7,12 @@ import { Footer } from "./Footer.js";
 
 export function Home() {
   return (
-    <div className="container-fluid">
-      <div className="container">
+    <div>
+      <div>
         <Navbar />
       </div>
 
-      <div className="container">
+      <div>
         <HeroSection />
       </div>
 

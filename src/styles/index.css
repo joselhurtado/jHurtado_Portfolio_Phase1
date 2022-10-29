@@ -3,12 +3,47 @@
 body {
     background-color: #D8D8D8;
 }
+
+/* TYPOGRAPHY */
+
+h1 {
+    color: #001648;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2rem;
+}
+
+h2 {
+    color: #00E2C7;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* TOP NAV */
+
+#topNavBar {
+    color:#001648;
+    border-bottom: 3px solid #001648;
+    background-color: #D8D8D8;
+}
+
+.navbar-brand {
+    color: #001648;
+}
+
+.nav-item, .a, .ul, .li, .active, .default {
+    color: #001648 !important;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.navbar-toggler {
+    background-color: #001648;
+}
+
 /* HERO */
 
 .HeroSection {
     width: 100vw;
     max-width: 1280px;
-    margin: 100px auto;
+    margin: 200px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,79 +77,55 @@ body {
 @media only screen and (max-width: 768px) {
     .HeroSection {
     flex-direction: column;
-    width: 100vw;
-    margin-top: 20px;
+    width: 90vw;
+    margin-top: 100px;
     }
     .copyHero {
-    width: 100vw;
+    width: 90vw;
     min-height: 300px;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 10px 10px;
     }
     .imageProfile {
-    width: 100vw;
+    width: 90vw;
     min-height: 400px;
-    margin: 30px;
+    margin: 10px 0px 0px 50px;
     }
-}
-
-/* TOP NAV */
-
-#topNavBar {
-    color:#001648;
-    border-bottom: 3px solid #001648;
-}
-
-.navbar-brand {
-    color: #001648;
-}
-
-.nav-item, .a, .ul, .li, .active, .default {
-    color: #001648 !important;
-    font-family: 'Source Code Pro', monospace;
-}
-
-.navbar-toggler {
-    background-color: #001648;
-}
-
-/* TYPOGRAPHY */
-
-h1 {
-    color: #001648;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 2rem;
-}
-
-h2 {
-    color: #00E2C7;
-    font-family: 'Source Code Pro', monospace;
-
 }
 
 /* TOOLBOX SECTION */
 
-.toolBoxSection {
+#toolBox {
     background-color: #001648;
+    color: #00E2C7;
     width: 100vw;
     height: 80vh;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 0px;
-    padding: 0px;
 }
 
-#copyToolbox, p {
+.toolBoxHeadline>h1 {
+    padding-top: 100px;
     color: #00E2C7;
-    display: block;
-    padding-top: 100px;   
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2rem;
+    align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .toolBoxLogos {
-    margin-top: 100px;
-    display: flex;
-    text-align: center;
+    padding-top: 50px;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.toolBoxCopy {
+    margin-top: 50px;
+    color: #00E2C7;
+    max-width: 800px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }

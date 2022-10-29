@@ -4,6 +4,7 @@ import ProfilePic from "/src/img/Image_JoseHurtado.jpg";
 export function HeroSection() {
 
   return (
+    <div className="container-fluid">
       <section className="container HeroSection">
         <div className="copyHero">
           <h1 className="HeadlineHero">
@@ -28,5 +29,6 @@ export function HeroSection() {
           />
         </div>
       </section>
+      </div>
   );
 }
